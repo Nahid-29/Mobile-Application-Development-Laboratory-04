@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo">
+
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jahangirnagar University"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginLeft="7dp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="175dp"
+            android:src="@drawable/nahid"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="20dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kamrul Hasan Nahid"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="1dp"
+
+                android:layout_marginLeft="20dp"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Student ID:"
+                   android:layout_marginTop="10dp"
+                   android:textStyle="bold"
+                   android:textSize="25sp"
+                   android:layout_marginLeft="20dp"
+                   >
+
+               </TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="20200650777"
+                   android:layout_marginTop="1dp"
+                   android:textStyle="bold"
+                   android:textSize="25sp"
+                   android:layout_marginLeft="20dp"
+                   >
+
+               </TextView>
+           </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Batch: 49"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+                </TextView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Department:"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Computer Science and Engineering"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:text="Session: 2019-2020"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:text="Hall: Shaheed Rafiq-Jabbar Hall"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:text="Blood Group: o+"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="18dp"
+                android:contentDescription="Phone"
+                android:onClick="pressPhone"
+                android:scaleType="fitStart"
+                android:src="@drawable/phone"
+                android:layout_marginRight="20dp"
+                android:id="@+id/phone"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="18dp"
+                android:contentDescription="fb"
+                android:onClick="pressFb"
+                android:scaleType="fitStart"
+                android:src="@drawable/fb"
+                android:id="@+id/fb"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="18dp"
+                android:contentDescription="mail"
+                android:onClick="pressMail"
+                android:scaleType="fitStart"
+                android:src="@drawable/mail"
+                android:id="@+id/mail"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="18dp"
+                android:contentDescription="LinkedIn"
+                android:onClick="pressLinkedIn"
+                android:scaleType="fitStart"
+                android:src="@drawable/linkedin"
+                android:id="@+id/linked"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="15dp"
+                android:contentDescription="GitHub"
+                android:onClick="pressGitHub"
+                android:scaleType="fitStart"
+                android:src="@drawable/github"
+                android:id="@+id/github"/>
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
